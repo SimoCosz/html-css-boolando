@@ -31,18 +31,6 @@ img{
     height: 669px;
 }
 
-.rear-img{
-    display: none;
-}
-
-.card:hover .front-img{
-    display: none;
-}
-
-.card:hover .rear-img{
-    display: initial;
-}
-
 .hearts{
     position: absolute;
     top: 40px;
@@ -51,16 +39,16 @@ img{
     padding: 5px 10px;
     font-size: 20px;
 }
+
 .discount{
     position: absolute;
     bottom:20px;
     left: 0;
     color: white;
-    font: bold;
     background-color: red;
     border: 1px solid red;
-    
 }
+
 .material{
     position: absolute;
     bottom: 20px;
@@ -91,4 +79,16 @@ img{
 
 .price{
     text-decoration: line-through;
+}
+
+.rear-img{
+    display: none;
+}
+
+.card:hover .front-img{
+    display: none;
+}
+
+.card:hover .rear-img{
+    display: initial;
 }
