@@ -92,3 +92,7 @@ img{
 .card:hover .rear-img{
     display: initial;
 }
+
+.card:hover .hearts{
+    color: red;
+}
