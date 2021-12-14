@@ -12,11 +12,24 @@ body{
     max-width: 80%;
     margin: 20px auto;
 }
+
 .card{
     margin: auto;
     display: inline-block;
     width: 480px;
     height: 769px;
+}
+
+.rear-img{
+    display: none;
+}
+
+.card:hover .front-img{
+    display: none;
+}
+
+.card:hover .rear-img{
+    display: initial;
 }
 
 .photo{
