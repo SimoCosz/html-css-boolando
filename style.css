@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    margin: auto;
+}
+.card{
+    margin: auto;
+    display: inline-block;
+    width: 480px;
+    height: 769px;
+    background-color: red;
+}
+
+.photo{
+    background-color: green;
+    margin: 10px auto;
+    width: 448px;
+    height: 669px;
+}
+
+.description{
+    margin: 10px auto;
+    background-color: blue;
+    width: 448px;
+    height: 63px;
+}
