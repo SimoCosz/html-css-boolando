@@ -3,27 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .first-section{
-    margin: auto;
+    max-width: 80%;
+    margin: 20px auto;
 }
 .card{
     margin: auto;
     display: inline-block;
     width: 480px;
     height: 769px;
-    background-color: red;
 }
 
 .photo{
-    background-color: green;
+    position: relative;
     margin: 10px auto;
     width: 448px;
     height: 669px;
 }
 
+img{
+    width: 448px;
+    height: 669px;
+}
+
+.hearts{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.discount{
+    position: absolute;
+    bottom:20px;
+    left: 0;
+    color: white;
+    font: bold;
+    background-color: red;
+    border: 1px solid red;
+    
+}
+.material{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+
 .description{
     margin: 10px auto;
-    background-color: blue;
     width: 448px;
     height: 63px;
+}
+
+.price-discount{
+    color: red;
+}
+
+.price{
+    text-decoration: line-through;
 }
